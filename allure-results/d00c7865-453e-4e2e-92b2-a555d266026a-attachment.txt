@@ -1,0 +1,2 @@
+Заголовки запроса: {'Authorization': 'None', 'Content-Type': 'application/json'}
+Ответ сервера: 400 {"success":false,"message":"Ingredient ids must be provided"}

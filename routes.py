@@ -1,0 +1,8 @@
+API_HOST = 'https://stellarburgers.nomoreparties.site'
+USER_REGISTER = 'https://stellarburgers.nomoreparties.site/api/auth/register'
+USER_SETTINGS_DELETE = 'https://stellarburgers.nomoreparties.site/api/auth/user'
+USER_LOGIN = 'https://stellarburgers.nomoreparties.site/api/auth/login'
+USER_LOGOUT = 'https://stellarburgers.nomoreparties.site/api/auth/logout'
+GET_ORDERS_ALL = 'https://stellarburgers.nomoreparties.site/api/orders/all'
+ORDERS = 'https://stellarburgers.nomoreparties.site/api/orders'
+TOKEN_REFRESH = 'https://stellarburgers.nomoreparties.site/api/auth/token'
