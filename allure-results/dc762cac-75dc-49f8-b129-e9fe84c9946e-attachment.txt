@@ -1,0 +1,23 @@
+Заголовки запроса: {'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2YzM2NjhhOWVkMjgwMDAxYjQ5YTVkZiIsImlhdCI6MTcyNDA4MTgwMiwiZXhwIjoxNzI0MDgzMDAyfQ.cjUjkrFiRVr-5kEWIMMr1qU_Skawa4ppxddfDorbWFg', 'Content-Type': 'application/json'}
+Ответ сервера: 500 <!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Error</title>
+</head>
+<body>
+<pre>Internal Server Error</pre>
+</body>
+</html>
+
+Ответ сервера на создание заказа с неверным хешем ингредиентов: 500 <!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Error</title>
+</head>
+<body>
+<pre>Internal Server Error</pre>
+</body>
+</html>
+

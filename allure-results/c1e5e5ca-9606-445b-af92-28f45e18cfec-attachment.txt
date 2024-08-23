@@ -1,0 +1,3 @@
+Заголовки запроса: {'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2YzM2NjhhOWVkMjgwMDAxYjQ5YTVkZCIsImlhdCI6MTcyNDA4MTgwMiwiZXhwIjoxNzI0MDgzMDAyfQ.c4OyYrkNd7UUptKVKwLJ8oPME_2j7HRNIqSaFbFrDck', 'Content-Type': 'application/json'}
+Ответ сервера: 400 {"success":false,"message":"Ingredient ids must be provided"}
+Ответ сервера на создание заказа без ингредиентов: 400 {"success":false,"message":"Ingredient ids must be provided"}
