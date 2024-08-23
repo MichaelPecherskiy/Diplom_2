@@ -5,6 +5,7 @@ from routes import ORDERS
 from messages import ERROR_MSG_SHOUlD_BE_AUTH
 
 
+
 @allure.epic("User Orders")
 @allure.suite("Order Management")
 class TestUserOrders:
@@ -35,7 +36,7 @@ class TestUserOrders:
             delete_user(access_token)
 
     @allure.title("Получение заказов неавторизованного пользователя")
-    def test_get_user_orders_unauthorized(self, invalid_order_data):
+    def test_get_user_orders_unauthorized(self):
         with allure.step("Попытка получить заказы без авторизации"):
             response = get_user_orders(ORDERS, None)
             data = response.json()
